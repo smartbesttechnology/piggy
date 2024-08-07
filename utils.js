@@ -1,0 +1,11 @@
+const PORT = process.env.PORT;
+const TWILIO_ACCOUNT_SID = process.env.TWILIO_ACCOUNT_SID;
+const TWILIO_API_KEY_SID = process.env.TWILIO_API_KEY_SID;
+const TWILIO_API_KEY_SECRET = process.env.TWILIO_API_KEY_SECRET;
+
+module.exports = {
+  PORT,
+  TWILIO_API_KEY_SECRET,
+  TWILIO_API_KEY_SID,
+  TWILIO_ACCOUNT_SID,
+};
